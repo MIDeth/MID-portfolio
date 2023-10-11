@@ -6,7 +6,7 @@ export default function About() {
           <div className="flex items-center ">
             <div className="mr-3">
               <div className="text-xl font-vogue ">MID</div>
-              <img src="me.jpeg" className="h-40 rounded-full " />
+              <img src="logo/logo.svg" className="h-40 " />
             </div>
             <div>
               <div className="font-mainME">MALE</div>

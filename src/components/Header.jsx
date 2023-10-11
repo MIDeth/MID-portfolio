@@ -25,7 +25,7 @@ export default function Header() {
             </li>
             <li className=" font-second my-3 hover:bg-[#737373] duration-700 py-[0.18rem] text-start rounded-md w-[4.2rem]">
               <span className="w-full text-xl text-[#787878] hover:text-[#eeeded] flex justify-center items-center">
-                <Link to="/blogs">blogs</Link>
+                <Link to="/about">about</Link>
               </span>
             </li>
           </ul>

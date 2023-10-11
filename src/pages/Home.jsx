@@ -54,11 +54,7 @@ export default function Home() {
                 </div>
               </div>
             </a>
-            <a
-              href="https://twitter.com/MIDeth_"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://t.me/midETH_dev" target="_blank" rel="noreferrer">
               <div className="flex ">
                 <div className="w-[1.4rem] my-1">
                   <svg

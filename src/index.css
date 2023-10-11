@@ -17,6 +17,11 @@
   src: url("/font/Graphik-Regular.ttf");
 }
 
+@font-face {
+  font-family: GraphikME;
+  src: url("/font/Graphik-Medium.ttf");
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

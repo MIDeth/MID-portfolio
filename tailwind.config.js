@@ -7,6 +7,7 @@ export default {
         vogue: "VOGUE",
         second: "ClassicalDiary",
         main: "GraphikRE",
+        mainME: "GraphikME",
       },
     },
   },

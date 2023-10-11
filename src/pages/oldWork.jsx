@@ -1,25 +1,51 @@
 export default function OldWork() {
   return (
     <>
-      <div className="w-[35rem] flex font-main">
-        <div className="w-[14rem] border-2 h-[12rem] rounded-[14.5px] flex flex-col mx-4">
-          <div className="flex items-center justify-center w-full h-4/6">
-            <img
-              src="work/celer.network.png"
-              className="h-full rounded-t-[14.5px] w-full"
-            />
-          </div>
-          <div className="w-full h-2/6 "></div>
+      <div>
+        <div className="my-4">
+          <h1 className="text-3xl font-second text-[#FFC0D3]">Old Work ⚡️</h1>
         </div>
-
-        <div className="w-[14rem] border-2 h-[12rem] rounded-[14.5px] flex flex-col mx-4">
-          <div className="flex items-center justify-center w-full h-4/6">
-            <img
-              src="work/veleno.png"
-              className="h-full rounded-t-[14.5px] w-full"
-            />
+        <div className="w-[35rem] grid grid-cols-3 gap-x-36 gap-y-7 font-main">
+          {/* start */}
+          <div className="w-[14rem] h-[12rem]  flex flex-col mx-4 relative">
+            <div className="flex items-center justify-center w-full h-4/6">
+              <img
+                src="work/veleno.png"
+                className="object-contain w-full h-full"
+              />
+            </div>
+            <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
+              VELENO moraccan artist article
+            </div>
+            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+              <a
+                href="https://veleno.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                live demo
+              </a>
+            </div>
           </div>
-          <div className="w-full h-2/6 ">n</div>
+          {/* finish */}
+          {/* start */}
+          <div className="w-[14rem] h-[12rem]  flex flex-col mx-4 relative">
+            <div className="flex items-center justify-center w-full h-4/6">
+              <img
+                src="work/celer.network.png"
+                className="object-contain w-full h-full"
+              />
+            </div>
+            <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
+              Blockchain Connected{" "}
+            </div>
+            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+              <a href="https://celer.network/" target="_blank" rel="noreferrer">
+                live demo
+              </a>
+            </div>
+          </div>
+          {/* finish */}
         </div>
       </div>
     </>

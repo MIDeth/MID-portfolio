@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
-      <header className="h-[100vh] w-[10%] text-black top-20 left-64 fixed ">
+      <header className="h-[100vh] w-32 text-black top-20 left-[20%] fixed ">
         <Link to="/">
           <div className="ml-2 mb-14 w-14">
             <img src="logo/logo.svg" className="w-full" />

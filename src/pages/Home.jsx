@@ -10,8 +10,8 @@ export default function Home() {
           currently work in a team has experience at PEPE, WallSTMemes, DORKL.
         </div>
         <div className="flex items-center pl-6 my-12">
-          <div className="w-[5rem] rounded-full">
-            <img src="logo/logo.svg" className="rounded-full" />
+          <div className="w-[5rem]">
+            <img src="logo/logo.svg" className="" />
           </div>
           <div className="flex flex-col ml-10">
             <a

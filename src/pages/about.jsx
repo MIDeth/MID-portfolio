@@ -1,8 +1,8 @@
 export default function About() {
   return (
     <>
-      <div className="w-[50rem] font-main ml-80">
-        <div className="flex justify-between">
+      <div className="w-[50rem] max-md:w-[18rem] font-main max-md:ml-20 ml-80">
+        <div className="flex justify-between max-md:flex-col max-md:justify-center">
           <div className="flex items-center ">
             <div className="mr-3">
               <div className="text-xl font-vogue ">MID</div>
@@ -13,7 +13,7 @@ export default function About() {
               <div className="font-mainME">19yo</div>
             </div>
           </div>
-          <div className="border-2 w-[34rem] ml-2 mt-10">
+          <div className="border-2 w-[34rem] ml-2 mt-10 max-md:w-full">
             <div className="flex items-center justify-center h-10 border-2">
               <div className="font-mainME">MID blurb</div>
             </div>

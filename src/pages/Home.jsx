@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <div className="w-[35rem] font-main">
+      <div className="w-[35rem] font-main ml-20">
         <div className="mt-2 mb-7">
           <h1 className="text-6xl font-vogue">MID</h1>
         </div>

@@ -17,7 +17,7 @@ function App() {
         </Routes>
 
         <audio controls autoPlay loop hidden>
-          <source src="audio/background.mp4" type="audio/mpeg" />
+          <source src="audio/background.mp4" type="audio/mp4" />
         </audio>
       </div>
     </>

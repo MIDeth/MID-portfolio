@@ -40,6 +40,11 @@ class App extends Component {
                 <Route path="/oldWork" element={<OldWork />} />
               </Routes>
             </div>
+            <iframe src="silence.mp3" allow="autoplay" id="audio">
+              <audio id="player" autoPlay controls>
+                <source src="audio/background.mp3" type="audio/mp3" />
+              </audio>
+            </iframe>
           </>
         )}
       </>

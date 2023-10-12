@@ -112,6 +112,10 @@ export default function Home() {
               <p>source-code</p>
             </a>
           </div>
+          <audio controls autoPlay>
+            <source src="/public/audio/background.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
         </div>
       </div>
     </>

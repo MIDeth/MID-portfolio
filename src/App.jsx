@@ -15,10 +15,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/oldWork" element={<OldWork />} />
         </Routes>
-
-        <audio controls autoPlay loop hidden>
-          <source src="audio/background.mp4" type="audio/mp4" />
-        </audio>
       </div>
     </>
   );

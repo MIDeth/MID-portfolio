@@ -27,7 +27,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <>
         {this.state.loading ? (
           <Loading />
         ) : (
@@ -45,7 +45,7 @@ class App extends Component {
             </audio>
           </>
         )}
-      </div>
+      </>
     );
   }
 }

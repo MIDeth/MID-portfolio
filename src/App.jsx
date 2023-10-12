@@ -40,7 +40,7 @@ class App extends Component {
                 <Route path="/oldWork" element={<OldWork />} />
               </Routes>
             </div>
-            <audio controls autoPlay loop>
+            <audio autoPlay loop>
               <source src="/public/audio/background.mp4" type="audio/mp4" />
             </audio>
           </>

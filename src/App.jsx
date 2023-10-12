@@ -11,38 +11,37 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      audioLoaded: false, // Initially, set loading to true
+      loading: true, // Initially, set loading to true
     };
   }
 
   componentDidMount() {
-    this.loadAudio();
+    // Simulate loading dependencies (you can replace this with your actual logic)
+    setTimeout(() => {
+      // Once the dependencies are loaded, set loading to false
+      this.setState({ loading: false });
+    }, 3500); // Replace 3000 with the actual loading time
+
+    // You can load your dependencies (e.g., data, API calls) here
   }
 
-  loadAudio = () => {
-    // Load your audio here
-    const audio = new Audio("/public/audio/background.mp4");
-    audio.oncanplaythrough = () => {
-      // Audio has loaded, update state to trigger the main page
-      this.setState({ audioLoaded: true });
-    };
-  };
-
   render() {
-    if (!this.state.audioLoaded) {
-      return <Loading />;
-    }
-
     return (
       <>
-        <div className="flex justify-center mt-20">
-          <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/oldWork" element={<OldWork />} />
-          </Routes>
-        </div>
+        {this.state.loading ? (
+          <Loading />
+        ) : (
+          <>
+            <div className="flex justify-center mt-20">
+              <Header />
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/oldWork" element={<OldWork />} />
+              </Routes>
+            </div>
+          </>
+        )}
       </>
     );
   }

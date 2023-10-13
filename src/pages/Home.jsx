@@ -7,7 +7,8 @@ export default function Home() {
         </div>
         <div>
           I’m a frontend, web3 developer, optimist, and community builder. I
-          currently work in a team has experience at PEPE, WallSTMemes, DORKL.
+          currently work in a team that has experience at PEPE, WallSTMemes, and
+          DORKL.
         </div>
         <div className="flex items-center pl-6 my-12">
           <div className="w-[5rem]">
@@ -73,11 +74,11 @@ export default function Home() {
           </div>
         </div>
         <div>
-          I’m a frontend and web3 developer and help crypto project owner team
-          in dev and marketing staff. I’m passionate about frontend development
-          and have an experiences in crypto project in the dev side write smart
-          contract, build dapps, and website for it. I’m an advisor and investor
-          in early stage startups
+          I’m a frontend and web3 developer and help the crypto project owner
+          team in dev and marketing staff. I’m passionate about frontend
+          development and have experience in crypto projects on the dev side
+          writing smart contracts and building DAPPs, and website for it. I’m an
+          advisor and investor in early-stage startups
         </div>
         <div className="flex mt-10">
           <div className="flex mx-3">

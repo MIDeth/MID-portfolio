@@ -50,6 +50,28 @@ export default function OldWork() {
           <div className="w-[14rem] h-[12rem]  flex flex-col mx-4 relative">
             <div className="flex items-center justify-center w-full h-4/6">
               <img
+                src="work/pndc.png"
+                className="object-contain w-full h-full"
+              />
+            </div>
+            <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
+              PNDC swap dapp{" "}
+            </div>
+            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+              <a
+                href="https://www.pond0x.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                live demo
+              </a>
+            </div>
+          </div>
+          {/* finish */}
+          {/* start */}
+          <div className="w-[14rem] h-[12rem]  flex flex-col mx-4 relative">
+            <div className="flex items-center justify-center w-full h-4/6">
+              <img
                 src="work/3face.png"
                 className="object-contain w-full h-full"
               />
@@ -63,6 +85,24 @@ export default function OldWork() {
                 target="_blank"
                 rel="noreferrer"
               >
+                live demo
+              </a>
+            </div>
+          </div>
+          {/* finish */}
+          {/* start */}
+          <div className="w-[14rem] h-[12rem]  flex flex-col mx-4 relative">
+            <div className="flex items-center justify-center w-full h-4/6">
+              <img
+                src="work/illuminati.png"
+                className="object-contain w-full h-full"
+              />
+            </div>
+            <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
+              smart contract, marketing, and wesite
+            </div>
+            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+              <a href="https://ilumeth.org/" target="_blank" rel="noreferrer">
                 live demo
               </a>
             </div>
@@ -125,6 +165,24 @@ export default function OldWork() {
                 target="_blank"
                 rel="noreferrer"
               >
+                live demo
+              </a>
+            </div>
+          </div>
+          {/* finish */}
+          {/* start */}
+          <div className="w-[14rem] h-[12rem]  flex flex-col mx-4 relative">
+            <div className="flex items-center justify-center w-full h-4/6">
+              <img
+                src="work/metamask classic.png"
+                className="object-contain w-full h-full"
+              />
+            </div>
+            <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
+              website, marketing
+            </div>
+            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+              <a href="https://metaerc.pro/" target="_blank" rel="noreferrer">
                 live demo
               </a>
             </div>

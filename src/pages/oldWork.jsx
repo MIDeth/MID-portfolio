@@ -5,7 +5,7 @@ export default function OldWork() {
         <div className="my-4">
           <h1 className="text-3xl font-second text-[#FFC0D3]">Old Work ⚡️</h1>
         </div>
-        <div className="w-[35rem] max-md:w-[10rem] grid grid-cols-3 max-md:grid-cols-1 max-md:gap-x-0 gap-x-36 gap-y-7 font-main">
+        <div className="w-[35rem] max-md:w-[10rem] grid grid-cols-3 max-md:grid-cols-1 max-md:gap-x-0 gap-x-36 gap-y-7 font-main mb-14">
           {/* start */}
           <div className="w-[14rem] h-[12rem]  flex flex-col mx-4 relative">
             <div className="flex items-center justify-center w-full h-4/6">

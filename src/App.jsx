@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/about";
 import OldWork from "./pages/oldWork";
 import Loading from "./pages/loading";
+import Footer from "./components/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -32,13 +33,14 @@ class App extends Component {
           <Loading />
         ) : (
           <>
-            <div className="flex justify-center mt-20">
+            <div className="flex justify-center mt-20 ">
               <Header />
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/oldWork" element={<OldWork />} />
               </Routes>
+              <Footer />
             </div>
           </>
         )}

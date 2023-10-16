@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <div className="w-[50rem] max-md:w-[18rem] font-main max-md:ml-20 ml-80">
+      <div className="w-[50rem] max-md:w-[18rem] font-main max-md:ml-20 ml-80 h-[80vh]">
         <div className="flex justify-between max-md:flex-col max-md:justify-center">
           <div className="flex items-center ">
             <div className="mr-3">

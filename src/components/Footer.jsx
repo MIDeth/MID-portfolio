@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <>
       <div className="absolute flex items-end justify-end w-full h-16 mt-10 -bottom-20 mb-9">
-        <div className="w-[2.46rem] mr-6">
+        <div className="w-[2.46rem] mr-6 mb-5 mt-10">
           <a
             href="https://t.me/+bbFq8SqUn-tmNjY5"
             target="_blank"

@@ -14,8 +14,8 @@ export default function About() {
             </div>
           </div>
           <div className="border-2 w-[34rem] ml-2 mt-10 max-md:w-full">
-            <div className="flex items-center justify-center h-10 border-2">
-              <div className="font-mainME">MID blurb</div>
+            <div className="flex items-center justify-center h-10 border-2 bg-slate-50">
+              <div className="text-black font-mainME">MID blurb</div>
             </div>
             <div className="p-2">
               <p className="font-main">

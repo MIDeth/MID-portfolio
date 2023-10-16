@@ -33,7 +33,7 @@ class App extends Component {
           <Loading />
         ) : (
           <>
-            <div className="flex justify-center mt-20 mb-12">
+            <div className="flex justify-center mt-20">
               <Header />
               <Routes>
                 <Route path="/" element={<Home />} />

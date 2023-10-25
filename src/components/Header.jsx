@@ -12,7 +12,7 @@ export default function Header() {
 
         <div>
           <ul>
-            <li className=" font-second my-3 hover:bg-[#737373] duration-700 py-[0.18rem] text-start rounded-md w-[4.2rem]">
+            <li className=" font-second my-3 hover:bg-[#737373] duration-700 py-[0.18rem] text-start rounded-md w-[3.5rem]">
               <span className="w-full text-xl text-[#787878] hover:text-[#eeeded] flex justify-center items-center">
                 <Link to="/">home</Link>
               </span>
@@ -23,12 +23,12 @@ export default function Header() {
                 <Link to="/oldWorks">old works</Link>
               </span>
             </li>
-            <li className=" font-second my-3 hover:bg-[#737373] duration-700 py-[0.18rem] text-start rounded-md w-[5.5rem]">
+            <li className=" font-second my-3 hover:bg-[#737373] duration-700 py-[0.18rem] text-start rounded-md w-[4.9rem]">
               <span className="w-full text-xl text-[#787878] hover:text-[#eeeded] flex justify-center items-center">
                 <Link to="/projects">projects</Link>
               </span>
             </li>
-            <li className=" font-second my-3 hover:bg-[#737373] duration-700 py-[0.18rem] text-start rounded-md w-[4.2rem]">
+            <li className=" font-second my-3 hover:bg-[#737373] duration-700 py-[0.18rem] text-start rounded-md w-[3.7rem]">
               <span className="w-full text-xl text-[#787878] hover:text-[#eeeded] flex justify-center items-center">
                 <Link to="/about">about</Link>
               </span>

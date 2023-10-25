@@ -20,7 +20,12 @@ export default function Header() {
 
             <li className=" font-second my-3 hover:bg-[#737373] duration-700 py-[0.18rem] text-start rounded-md w-[6.2rem]">
               <span className="w-full text-xl text-[#787878] hover:text-[#eeeded] flex justify-center items-center">
-                <Link to="/oldWork">old work</Link>
+                <Link to="/oldWorks">old works</Link>
+              </span>
+            </li>
+            <li className=" font-second my-3 hover:bg-[#737373] duration-700 py-[0.18rem] text-start rounded-md w-[5.5rem]">
+              <span className="w-full text-xl text-[#787878] hover:text-[#eeeded] flex justify-center items-center">
+                <Link to="/projects">projects</Link>
               </span>
             </li>
             <li className=" font-second my-3 hover:bg-[#737373] duration-700 py-[0.18rem] text-start rounded-md w-[4.2rem]">

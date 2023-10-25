@@ -2,11 +2,12 @@ import { Routes, Route } from "react-router-dom";
 import { Component } from "react";
 import "./App.css";
 import Header from "./components/Header";
+import Loading from "./components/loading";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/about";
-import OldWork from "./pages/oldWork";
-import Loading from "./pages/loading";
-import Footer from "./components/Footer";
+import OldWorks from "./pages/oldWorks";
+import Projects from "./pages/Projects";
 
 class App extends Component {
   constructor(props) {
@@ -38,7 +39,8 @@ class App extends Component {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/oldWork" element={<OldWork />} />
+                <Route path="/oldWorks" element={<OldWorks />} />
+                <Route path="/projects" element={<Projects />} />
               </Routes>
               <Footer />
             </div>

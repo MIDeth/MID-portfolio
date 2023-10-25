@@ -1,9 +1,9 @@
-export default function OldWork() {
+export default function OldWorks() {
   return (
     <>
       <div>
         <div className="my-4">
-          <h1 className="text-3xl font-second text-[#FFC0D3]">Old Work ⚡️</h1>
+          <h1 className="text-3xl font-second text-[#FFC0D3]">Old Works ⚡️</h1>
         </div>
         <div className="w-[35rem] max-md:w-[10rem] grid grid-cols-3 max-md:grid-cols-1 max-md:gap-x-0 gap-x-36 gap-y-7 font-main mb-14">
           {/* start */}

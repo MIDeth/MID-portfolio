@@ -17,7 +17,7 @@ export default function OldWorks() {
             <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
               VELENO moraccan artist article
             </div>
-            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+            <div className="text-[.5rem] absolute bottom-0 right-0 text-[#F0F0F0] font-main">
               <a
                 href="https://veleno.netlify.app/"
                 target="_blank"
@@ -39,7 +39,7 @@ export default function OldWorks() {
             <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
               Blockchain Connected{" "}
             </div>
-            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+            <div className="text-[.5rem] absolute bottom-0 right-0 text-[#F0F0F0] font-main">
               <a href="https://celer.network/" target="_blank" rel="noreferrer">
                 live demo
               </a>
@@ -57,7 +57,7 @@ export default function OldWorks() {
             <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
               PNDC swap dapp{" "}
             </div>
-            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+            <div className="text-[.5rem] absolute bottom-0 right-0 text-[#F0F0F0] font-main">
               <a
                 href="https://www.pond0x.com/"
                 target="_blank"
@@ -79,7 +79,7 @@ export default function OldWorks() {
             <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
               3FACE NFT website and smart contract
             </div>
-            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+            <div className="text-[.5rem] absolute bottom-0 right-0 text-[#F0F0F0] font-main">
               <a
                 href="https://outland.art/3face/"
                 target="_blank"
@@ -101,7 +101,7 @@ export default function OldWorks() {
             <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
               smart contract, marketing, and wesite
             </div>
-            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+            <div className="text-[.5rem] absolute bottom-0 right-0 text-[#F0F0F0] font-main">
               <a href="https://ilumeth.org/" target="_blank" rel="noreferrer">
                 live demo
               </a>
@@ -119,7 +119,7 @@ export default function OldWorks() {
             <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
               DeGods NFT website and smart contract
             </div>
-            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+            <div className="text-[.5rem] absolute bottom-0 right-0 text-[#F0F0F0] font-main">
               <a href="https://degods.com/" target="_blank" rel="noreferrer">
                 live demo
               </a>
@@ -137,7 +137,7 @@ export default function OldWorks() {
             <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
               ONCHAIN NFT website, smart contract, and staking dapp
             </div>
-            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+            <div className="text-[.5rem] absolute bottom-0 right-0 text-[#F0F0F0] font-main">
               <a
                 href="https://onchainbuccaneers.com/"
                 target="_blank"
@@ -159,7 +159,7 @@ export default function OldWorks() {
             <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
               Sam Spratt NFT website
             </div>
-            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+            <div className="text-[.5rem] absolute bottom-0 right-0 text-[#F0F0F0] font-main">
               <a
                 href="https://www.samspratt.com/"
                 target="_blank"
@@ -181,7 +181,7 @@ export default function OldWorks() {
             <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
               website, marketing
             </div>
-            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+            <div className="text-[.5rem] absolute bottom-0 right-0 text-[#F0F0F0] font-main">
               <a href="https://metaerc.pro/" target="_blank" rel="noreferrer">
                 live demo
               </a>
@@ -199,7 +199,7 @@ export default function OldWorks() {
             <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
               Pudgy Penguins NFT website
             </div>
-            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+            <div className="text-[.5rem] absolute bottom-0 right-0 text-[#F0F0F0] font-main">
               <a
                 href="https://www.pudgypenguins.com/"
                 target="_blank"
@@ -221,7 +221,7 @@ export default function OldWorks() {
             <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
               timeSoul NFT website and smart contract
             </div>
-            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+            <div className="text-[.5rem] absolute bottom-0 right-0 text-[#F0F0F0] font-main">
               <a href="https://timesoul.com/" target="_blank" rel="noreferrer">
                 live demo
               </a>

@@ -17,7 +17,7 @@ export default function Projects() {
             <div className="w-full pt-3 pl-2 text-xs leading-4 h-2/6 font-mainME">
               check NFTs of wallet address or collection
             </div>
-            <div className="text-[.3rem] absolute bottom-0 right-0 text-gray-700 font-main">
+            <div className="text-[.5rem] absolute bottom-0 right-0 text-[#F0F0F0] font-main">
               <a
                 href="https://mid-nft-gallery.vercel.app/"
                 target="_blank"

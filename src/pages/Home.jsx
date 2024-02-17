@@ -55,7 +55,7 @@ export default function Home() {
                 </div>
               </div>
             </a>
-            <a href="https://t.me/MID_whale" target="_blank" rel="noreferrer">
+            <a href="https://t.me/VORTEX_DEV" target="_blank" rel="noreferrer">
               <div className="flex ">
                 <div className="w-[1.4rem] my-1">
                   <svg

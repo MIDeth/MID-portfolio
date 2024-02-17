@@ -16,7 +16,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col ml-10">
             <a
-              href="https://twitter.com/MIDeth_"
+              href="https://twitter.com/ORCA2B_"
               target="_blank"
               rel="noreferrer"
             >
